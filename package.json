@@ -1,0 +1,14 @@
+{
+  "name": "thunderpos-cloud-root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "echo 'Run workspace specific dev commands'",
+    "build": "echo 'Run workspace specific build commands'"
+  },
+  "devDependencies": {
+    "electron-vite": "^5.0.0"
+  }
+}
