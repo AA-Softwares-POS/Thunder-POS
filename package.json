@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "dev": "echo 'Run workspace specific dev commands'",
-    "build": "echo 'Run workspace specific build commands'"
+    "build": "npm run build --workspace=@thunderpos/admin-panel"
   },
   "devDependencies": {
     "electron-vite": "^5.0.0"
